@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "GooglePlaces", platforms: [.iOS(.v15)],
+  name: "GooglePlaces", platforms: [.iOS(.v13)],
   products: [
     .library(name: "GooglePlaces", targets: ["GooglePlacesTarget"]),
     .library(name: "GooglePlacesSwift", targets: ["GooglePlacesSwiftTarget"]),
